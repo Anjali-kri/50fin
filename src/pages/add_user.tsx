@@ -69,7 +69,6 @@ export default function AddUser() {
                         <h2 className="text-lg font-medium text-gray-800 dark:text-white">Add User</h2>
 
                         <p className="mt-1 text-sm text-red-500">* fields are mandatory.</p>
-                        {JSON.stringify(form)}
                         <Link href="/user" className='float-right -my-4'>
                             <button className="flex items-center px-4 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-lg hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
                                
